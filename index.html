@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
 
 <!-- HEAD START -->
 <head>
@@ -44,7 +44,38 @@
 
     <!-- HEADER START -->
     <header>
-
+        <!-- NAVBAR START -->
+            <div class="navbar py-4 lg:px-32 lg:py-14 bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a class="text-error">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                    </div>
+                    <img src="icons/animus.png" width="35px" height="35px" alt="">
+                    <a class="btn btn-ghost text-xl font-extrabold">Animus Hockeys</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-error">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn  bg-error text-stone-50">Get Ticket</a>
+                </div>
+            </div>
+        <!-- NAVBAR END -->
     </header>
     <!-- HEADER END -->
     
@@ -55,8 +86,42 @@
     <!-- MAIN END -->
     
     <!-- FOOTER START -->
-    <footer>
-
+    <footer class="footer lg:justify-around p-10 lg:px-24 lg:py-28 bg-black text-base-content">
+          <nav class="w-72 lg:w-80">
+            <header class="font-extrabold text-3xl text-white">Get in Touch</header> 
+            <p class="pt-4 pb-6 text-zinc-400">Contact us with the given email and phone number below for Sponsor and Legal Purposes</p>
+            <div class="flex gap-4">
+                <img src="icons/email-red.png" width="24px" height="24px" alt="">
+                <a class="link link-hover text-zinc-400">animushockeys@proton.com</a>
+            </div>
+            <div class="flex gap-4">
+                <img src="icons/call-red.png" width="24px" height="24px" alt="">
+                <a class="link link-hover text-zinc-400">+88801420420420</a>
+            </div>
+          </nav> 
+          <nav>
+            <header class="text-lg font-extrabold pb-7 text-white">Company</header> 
+            <a class="link link-hover text-zinc-400">About Us</a>
+            <a class="link link-hover text-zinc-400">Leadership</a>
+            <a class="link link-hover text-zinc-400">Careers</a>
+            <a class="link link-hover text-zinc-400">News & Article</a>
+            <a class="link link-hover text-zinc-400">Legal Notice</a>
+          </nav> 
+          <nav>
+            <header class="text-lg font-extrabold pb-7 text-white">Support</header> 
+            <a class="link link-hover text-zinc-400">Help Center</a>
+            <a class="link link-hover text-zinc-400">FAQ</a>
+            <a class="link link-hover text-zinc-400">Ticket Support</a>
+            <a class="link link-hover text-zinc-400">Contact Us</a>
+          </nav> 
+          <nav>
+            <header class="text-lg font-extrabold pb-7 text-white">Services</header> 
+            <a class="link link-hover text-zinc-400">Academy</a>
+            <a class="link link-hover text-zinc-400">Group Lesson</a>
+            <a class="link link-hover text-zinc-400">Private Lesson</a>
+            <a class="link link-hover text-zinc-400">Hockeys for Kids</a>
+            <a class="link link-hover text-zinc-400">Hockeys for Adult</a>
+          </nav>
     </footer>
     <!-- FOOTER END -->
 
